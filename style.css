@@ -1,0 +1,94 @@
+*{
+    margin:0%;
+    padding:0%;
+    text-align: center;
+     box-sizing: border-box !important;
+}
+body{
+    background-color: #081b31;
+    background-size: cover;
+}
+.neon-text {
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    }
+    100% {
+        text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 40px #00d4ff, 0 0 80px #00d4ff, 0 0 160px #00d4ff;
+    }
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: #FF3E9B;
+}
+.choice{
+    height:225px;
+    width:225px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+img{
+    height:200px;
+    width:200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices{
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ gap: 3rem;
+ margin-top: 5rem;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem; 
+    gap: 5rem;  
+}
+#user-score, #comp-score{
+    font-size: 4rem;
+}
+.msg-contain{
+    margin-top: 5rem;
+}
+#msg{
+    background-color: #081b31;
+    color:white;
+    font-size:2rem;
+    display:inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+p{
+    color: #fff;
+    text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    }
+    100% {
+        text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 40px #00d4ff, 0 0 80px #00d4ff, 0 0 160px #00d4ff;
+    }
+}
+.s{
+    margin-top: 6rem;
+}
+#sr{
+    margin-left:1400px ;
+    color:#FF3E9B;
+    font-style: italic;
+    font-size: 20px;
+}
