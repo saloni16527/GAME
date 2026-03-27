@@ -8,6 +8,11 @@ body{
     background-color: #081b31;
     background-size: cover;
 }
+@media(max-width:450px){
+    .container{
+        width:800px
+    }
+}
 .neon-text {
     font-size: 4rem;
     color: #fff;
